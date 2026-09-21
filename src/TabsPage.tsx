@@ -6,6 +6,7 @@ export const tabs = [
   { id: 'tab-3', title: 'Tab 3', content: 'Some text 3' },
 ];
 
+
 export const TabsPage = () => {
   // tabId береться з вкладеного маршруту :tabId
   const { tabId } = useParams<{ tabId?: string }>();
